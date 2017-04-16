@@ -1,0 +1,100 @@
+p{
+    font-size: 1.2em;
+    transform: rotate(-90deg);
+}
+main{
+    background-color: rgba(255, 215, 101, 0.45);
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+#content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.timeline{
+    width: 25%;
+    height: 7em;
+    -webkit-box-shadow: 8px 0 6px -6px #777;
+    -moz-box-shadow: 8px 0 6px -6px #777;
+    box-shadow: 8px 0 6px -6px #777;
+}
+.timeline p{
+    padding-left: 17%;
+}
+.explain{
+        width:0%;
+        background-color: rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+}
+.inside-info{
+    display: none;
+    transform: rotate(0deg);
+    text-align: center;
+}
+.event-description{
+    font-size: 1em;
+    transform: rotate(0deg);
+    width: 80%;
+    margin: 0 auto;
+}
+.individual-time{
+    font-size: 1.5em;
+    }
+#eight-info-description{
+    font-size: 1em;
+    }
+#eight{
+    background-color:#C065CC;
+}
+#nine{
+    background-color: rgba(224, 166, 255, 1);
+}
+#nine-fifteen{
+    background-color: rgba(168, 125, 191, 1);
+}
+#nine-thirty{
+    background-color: rgba(112, 83, 127, 1);
+}
+#ten-thirty{
+    background-color: rgba(215, 125, 255, 1);
+}
+#eleven{
+    background-color: rgba(171, 74, 255, 1);
+}
+#eleven-fifteen{
+    background-color: rgba(206, 79, 255, 1);
+}
+#twelve-fifteen{
+    background-color: rgba(166, 97, 191, 1);
+}
+#explain-nine-thirty{
+    display: none;
+}
+#clarify{
+    transform: rotate(-90deg);
+    font-size: 1.4em;
+    position: relative;
+    right:40%;
+    top: 35%;
+}
+@media screen and (min-width: 800px){
+    .timeline{
+        width: 17%;
+        height: 10em;
+    }
+    .timeline p{
+        padding-left: 21%;
+    }
+    .individual-time{
+        font-size: 1.6em;
+    }
+    .workshop-names{
+        font-size: 1.6em;
+    }
+}

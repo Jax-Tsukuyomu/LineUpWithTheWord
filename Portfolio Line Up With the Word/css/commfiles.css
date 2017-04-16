@@ -1,0 +1,99 @@
+html{
+    margin: 0;
+}
+body{
+    background-color: rgba(255, 215, 101, 0.45);
+    float: left;
+    height: 100%;
+    margin: 0;
+}
+p{
+    font-family: "forum-regular";
+    font-size: 1.44em;
+    line-height: 1.414em;
+    padding-right: .5em;
+}
+h3{
+    font-size: 1.8em;
+}
+#content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+#pdf{
+    width: 45%;
+    background-color: rgba(167, 80, 178, 0.9);
+}
+#word{
+    width: 45%;
+    background-color: rgba(167, 80, 178, 0.9);
+}
+#pdf-head{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+#word-head{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+#comm-greeting{
+    padding-left: 5px;
+    font-size: .8em;
+}
+#instruct{
+    background-color: rgba(167, 80, 178, 0.9);
+}
+#instruct-h3{
+    font-size: 2.615em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: -.4em;
+}
+.instruct-li{
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+.word-li{
+    font-size: 1em;
+    line-height: 1.55em;
+}
+#pdf-li-one{
+    margin-bottom: .5em;
+}
+#word-li-one{
+    margin-bottom: .5em;
+}
+#pdf-ul{
+        margin-bottom:1.3em;
+        list-style: none;
+        -webkit-padding-start: 5px;
+}
+.pdf-li{
+    font-size: 1em;
+    line-height: 1.55em;
+}
+#word-ul{
+    margin-bottom:1.3em;
+    list-style: none;
+    -webkit-padding-start: 5px;
+}
+@media screen and (min-width: 800px){
+    #pdf, #word{
+        width: 45%;
+        margin: 0 auto;
+        font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+    #instruct{
+        float: right;
+        width: 33%;
+        margin-right: 2.5%;
+        margin-top: 3%;
+    }
+    #comm-greeting{
+        width: 60%;
+        float: left;
+        margin-left: 2%;
+        font-size: 1.1em
+    }
+}

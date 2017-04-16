@@ -1,0 +1,88 @@
+main{
+    float: right;
+    text-align: center;
+    background-color: rgba(255, 215, 101, 0.45);
+    z-index: 2;
+}
+#hero{
+    font-family: 'forum-regular';
+}
+#contact{
+    list-style: none;
+    font-size: 1.11em;
+    line-height: 1.7em;
+    padding: 0;
+}
+.info{
+    list-style: none;
+}
+#content{
+    text-align: left;
+    font-family: "forum-regular";
+    font-size: 1.2em;
+    line-height: 1.414em;
+    padding-left: .5em;
+}
+#content li{
+    font-size: .8em;
+}
+.bio-intro{
+    margin: 0 auto;
+}
+#shrink-bio1{
+    font-size: 1.7em;
+}
+#shrink-bio3{
+    display: none;
+}
+#contact-h3{
+    margin: 0;
+    padding-bottom: 1%;
+}
+#intro{
+    text-align: center;
+    padding-top: 1%;
+}
+@media screen and (min-width: 800px){
+#content{
+    float: right;
+    width: 64%;
+    text-align: left;
+    font-family: "forum-regular";
+    font-size: 1.2em;
+    line-height: 1.414em;
+    margin: 0 auto;
+    margin-right: 1em;
+}
+#hero{
+    float: left;
+    margin-left: 2%;
+    text-align: left;
+    font-family: 'forum-regular';
+    width: 30%;
+}
+figure{
+    margin: 1em 0;
+}
+#shrink-bio3{
+    display: none;
+}
+#intro{
+    text-align: center;
+    float: right;
+    width: 63%;
+    padding-top: 1%;
+    padding-right: 4%;
+}
+#shrink-bio2{
+    font-size: 3em;
+}
+#shrink-bio1{
+    font-size: 2.75em;
+}
+}
+@media screen and (min-width: 1000px){
+#content{
+    font-size: 1.6em;
+}
+}

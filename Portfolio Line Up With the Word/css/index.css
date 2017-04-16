@@ -1,0 +1,155 @@
+html{
+    background-color: white;
+}
+body{
+    background-image: url('../photos/giphy.jpg');
+    background-size: cover;
+    height: auto;
+}
+h1{
+    font-size: 2.1em;
+    margin-top:0;
+    padding: 0;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "forum-regular";
+    font-size: .8em;
+    line-height: 1.414em;
+    padding-right: .5em;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1.44em;
+}
+main{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#welcome{
+    font-family: 'great-vibes-regular';
+}
+#content{
+    background-color: rgba(255, 215, 101, 0.45);
+    height: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+#description-container{
+    flex-grow: 1.3;
+    width: 65%;
+    font-family: 'forum-regular';
+    -webkit-box-shadow: -8px 0px 6px -6px #777;
+    -moz-box-shadow: -8px 0px 6px -6px #777;
+    box-shadow: -8px 0px 6px -6px #777;
+    padding-left: 1em;
+}
+#important-container{
+    display: none;
+}
+#hidden-container{
+    display: inline-block;
+    -webkit-box-shadow: 0px 6px 12px -6px #777;
+    -moz-box-shadow: 0px 6px 12px -6px #777;
+    box-shadow: 0px 6px 12px -6px #777;
+}
+#tabernacle{
+    margin-top: 3em;
+    -webkit-box-shadow: -8px 0px 6px -6px #777;
+    -moz-box-shadow: -8px 0px 6px -6px #777;
+    box-shadow: -8px 0px 6px -6px #777;
+}
+#savior{
+    background-color: white;
+}
+#contact-h3{
+    padding-top: 2%;
+}
+#title-h3{
+    padding-top: .5%;
+}
+.event-contact{
+    font-size: 1.2em;
+}
+@media screen and (min-width: 375px){
+
+}
+@media screen and (min-width: 450px){
+    p{
+        font-size: 1em;
+    }
+    .hidden-p{
+        font-size: 1em;
+    }
+    #hidden-container{
+        width:100%;
+    }
+    #title-h3{
+        font-size: 2.5em;
+    }
+    #important-container{
+        font-family: 'forum-regular';
+        flex-grow: 1;
+        padding-left: 1em;
+        width: 30%;
+        line-height: 1.818em;
+    }
+    #hidden-container{
+        display: none;
+    }
+}
+@media screen and (min-width: 640px){
+    .hidden-p{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 3.5em;
+    }
+    h2{
+        font-size:2.4em;
+    }
+    h3{
+        font-size:1.4em;
+    }
+    .descriptor-p{
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width: 1000px){
+  h1{
+    font-size: 3.81em;
+  }
+  h2{
+    font-size: 2.93em;
+  }
+  h3{
+    font-size: 1.92em;
+  }
+  li{
+    font-size: 1.08em;
+  }
+    p{
+        font-size: 1.21em;
+    }
+    ul{
+        padding-left: 0;
+    }
+    #important-container{
+        display: block;
+    }
+    #hidden-container{
+        display: none;
+    }
+}
